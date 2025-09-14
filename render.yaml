@@ -1,0 +1,7 @@
+# This file tells Render how to run your cron job
+services:
+  - type: cron
+    name: job-scraper
+    schedule: "0 * * * *"  # Runs every hour
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "python scraper.py"
