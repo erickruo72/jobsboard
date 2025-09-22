@@ -196,12 +196,4 @@ data/
 
 This project is provided under the MIT License — see `LICENSE` for details.
 
----
 
-If you want, I can also:
-
-* generate a `requirements.txt` and a minimal `run_scraper.py` scaffold,
-* produce example scraper code for one job source,
-* or write the WP posting function with error handling and example requests.
-
-Tell me which piece you want next.
